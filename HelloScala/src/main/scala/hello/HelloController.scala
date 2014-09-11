@@ -17,7 +17,7 @@ class HelloController{
 
 @RequestMapping (value =Array("/")) 
 def ctl(): String={
-"hello"
+"hello world"
 }
 
 
