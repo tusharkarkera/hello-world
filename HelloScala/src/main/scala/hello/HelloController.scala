@@ -162,9 +162,7 @@ class HelloController {
             buff.remove(i)
             webLogins = buff.toArray
             breaks.break()
-            //var list: List[IDCard] =idCards.toList
-            //list.drop(i)
-            // idCards = list.toArray
+
           }
 
         }
