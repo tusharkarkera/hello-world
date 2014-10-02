@@ -19,7 +19,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
 jar {
-    baseName = 'hello'
+    baseName = 'wallet'
     version =  '0.1.0'
 }
 
