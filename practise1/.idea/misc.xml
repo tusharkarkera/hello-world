@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="IdProvider" IDEtalkID="F6950867355C364EF3FE12D052AE3092" />
+  <component name="ProjectKey">
+    <option name="state" value="project://8a8b7503-e401-412c-b1c7-37565e0e9661" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$USER_HOME$/Documents/hello-world/practise1/out" />
+  </component>
+</project>
+

@@ -35,12 +35,16 @@ repositories {
  }
 
 dependencies {
+    compile 'org.codehaus.jackson:jackson-core-asl:1.1.0'
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.2'
     compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb")
     testCompile("org.springframework.boot:spring-boot-starter-test")
     compile("org.scala-lang:scala-library:2.10.4")
     compile("org.webjars:bootstrap:3.1.1")
     testCompile("junit:junit")
 }
+
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.1'

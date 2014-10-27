@@ -2,6 +2,7 @@ package VO
 
 import javax.validation.constraints.NotNull
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import org.hibernate.validator.constraints.NotEmpty
 
 import scala.beans.BeanProperty
@@ -29,5 +30,9 @@ class WebLogin {
   @NotEmpty
   @BeanProperty
   var password:String =_
+
+  @JsonIgnore
+  @BeanProperty
+  var user_id:String=_
 
 }
